@@ -1,4 +1,5 @@
 .toggle_switch {
+    display: block;
     bottom: -1.8em;
     right: 7em;
 }
