@@ -1,0 +1,307 @@
+:root {
+    --toggle-theme-image: url(/assets/image/dark.png);
+    --toggle-theme-hover: #3F81BB;
+    --pfblock: #fff;
+    --table-iksweb1: #fff;
+    --table-iksweb2: #111;
+    --iksweb-td1: #000000;
+    --iksweb-td2: #111;
+    --navbartext: #666666;
+    --body1: #fff;
+    --body2: #666;
+    --a: #E7746F;
+    --h1-h6: #222;
+    --pfblock-gray: #f5f5f5;
+    --iconbox1: #fff;
+    --iconbox2: #d4d4d4;
+    --header: #f5f5f5;
+    --navbar-custom--navbar-custom--dropdown-menu: #fff;
+    --navbar-custom--navbar-nav--dropdown-menu--li--a: #222;
+    --navbar-custom--navbar-nav--li-active--a: #E7746F;
+    --preloader: #fff;
+    --navbar-custom--nav--li-active--navbar-custom--nav--li--a-hover--navbar-custom--nav--li--a-focus--navbar-custom--navbar-nav--li-active--a: #E7746F;
+    --navbar-custom--navbar-brand--navbar-custom--navbar-nav--li--a--navbar-custom--navbar-nav--dropdown-menu--li--a: #222;
+    --figure-effect-bubba: #9e5406;
+    --scroll-up--a-hover--scroll-up--a-active1: rgba(235, 235, 235, .8);
+    --scroll-up--a-hover--scroll-up--a-active2: #e7746f;
+    --footer-span: #ff5252;
+    --navbar-custom--navbar-toggle--icon-bar: #222;
+    --home: url(/assets/images/cover1.jpg);
+}
+
+.pfblock {
+    background-color: var(--pfblock);
+    transition: 0.3s;
+}
+
+table.iksweb {
+    background-color: var(--table-iksweb1);
+    border: 1px solid var(--table-iksweb2);
+    transition: 0.3s;
+}
+
+.iksweb td {
+    color: var(--iksweb-td1);
+    border: 1px solid var(--iksweb-td2);
+    transition: 0.3s;
+}
+
+.navbartext {
+    color: var(--navbartext);
+    transition: 0.3s;
+}
+
+body {
+    background-color: var(--body1);
+    color: var(--body2);
+    transition: 0.3s;
+}
+
+a {
+    color: var(--a);
+    transition: 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--h1-h6);
+    transition: 0.3s;
+}
+
+.pfblock-gray {
+    background: var(--pfblock-gray);
+    transition: 0.3s;
+}
+
+.iconbox {
+    background: var(--iconbox1);
+    border-bottom: 1px solid var(--iconbox2);
+    transition: 0.3s;
+}
+
+.header {
+    border-bottom: 1px solid var(--header);
+    transition: 0.3s;
+}
+
+.navbar-custom,
+.navbar-custom .dropdown-menu {
+    background: var(--navbar-custom--navbar-custom--dropdown-menu);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-nav .dropdown-menu>li>a {
+    color: var(--navbar-custom--navbar-nav--dropdown-menu--li--a);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-nav>li.active a {
+    color: var(--navbar-custom--navbar-nav--li-active--a);
+    transition: 0.3s;
+}
+
+#preloader {
+    background: var(--preloader);
+}
+
+.navbar-custom .nav li.active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .navbar-nav>li.active a {
+    color: var(--navbar-custom--nav--li-active--navbar-custom--nav--li--a-hover--navbar-custom--nav--li--a-focus--navbar-custom--navbar-nav--li-active--a);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav>li>a,
+.navbar-custom .navbar-nav .dropdown-menu>li>a {
+    color: var(--navbar-custom--navbar-brand--navbar-custom--navbar-nav--li--a--navbar-custom--navbar-nav--dropdown-menu--li--a);
+    transition: 0.3s;
+}
+
+figure.effect-bubba {
+    background: var(--figure-effect-bubba);
+    transition: 0.3s;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+    background-color: var(--scroll-up--a-hover--scroll-up--a-active1);
+    color: var(--scroll-up--a-hover--scroll-up--a-active2);
+    transition: 0.3s;
+}
+
+#footer span {
+    color: var(--footer-span);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background: var(--navbar-custom--navbar-toggle--icon-bar);
+    transition: 0.3s;
+}
+
+#home {
+    background: var(--home);
+    transition: 0.3s;
+}
+
+:root[data-theme='dark'] {
+    --toggle-theme-image: url(/assets/image/light.png);
+    --toggle-theme-hover: #E7746F;
+    --pfblock: #141414;
+    --table-iksweb1: #181818;
+    --table-iksweb2: #252525;
+    --iksweb-td1: #888;
+    --iksweb-td2: #111;
+    --navbartext: #fff;
+    --body1: #141414;
+    --a: rgb(66, 139, 202);
+    --h1-h6: #fff;
+    --pfblock-gray: #181818;
+    --iconbox1: #151515;
+    --iconbox2: #151515;
+    --header: #222;
+    --navbar-custom--navbar-custom--dropdown-menu: #222;
+    --navbar-custom--navbar-nav--dropdown-menu--li--a: #fff;
+    --navbar-custom--navbar-nav--li-active--a: rgb(66, 139, 202);
+    --preloader: #111;
+    --navbar-custom--nav--li-active--navbar-custom--nav--li--a-hover--navbar-custom--nav--li--a-focus--navbar-custom--navbar-nav--li-active--a: rgb(66, 139, 202);
+    --navbar-custom--navbar-brand--navbar-custom--navbar-nav--li--a--navbar-custom--navbar-nav--dropdown-menu--li--a: #fff;
+    --figure-effect-bubba: rgb(66, 139, 202);
+    --scroll-up--a-hover--scroll-up--a-active1: rgba(135, 135, 135, 0.7);
+    --scroll-up--a-hover--scroll-up--a-active2: rgb(66, 139, 202);
+    --footer-span: rgb(66, 139, 202);
+    --body2: #666666;
+    --navbar-custom--navbar-toggle--icon-bar: #fff;
+    --home: url(/assets/images/cover3.jpg);
+}
+
+.pfblock {
+    background-color: var(--pfblock);
+    transition: 0.3s;
+}
+
+table.iksweb {
+    background-color: var(--table-iksweb1);
+    border: 1px solid var(--table-iksweb2);
+    transition: 0.3s;
+}
+
+.iksweb td {
+    color: var(--iksweb-td1);
+    border: 1px solid var(--iksweb-td2);
+    transition: 0.3s;
+}
+
+.navbartext {
+    color: var(--navbartext);
+    transition: 0.3s;
+}
+
+body {
+    background-color: var(--body1);
+    transition: 0.3s;
+}
+
+a {
+    color: var(--a);
+    transition: 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--h1-h6);
+    transition: 0.3s;
+}
+
+.pfblock-gray {
+    background: var(--pfblock-gray);
+    transition: 0.3s;
+}
+
+.iconbox {
+    background: var(--iconbox1);
+    border-bottom: 1px solid var(--iconbox2);
+    transition: 0.3s;
+}
+
+.header {
+    border-bottom: 1px solid var(--header);
+    transition: 0.3s;
+}
+
+.navbar-custom,
+.navbar-custom .dropdown-menu {
+    background: var(--navbar-custom--navbar-custom--dropdown-menu);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-nav .dropdown-menu>li>a {
+    color: var(--navbar-custom--navbar-nav--dropdown-menu--li--a);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-nav>li.active a {
+    color: var(--navbar-custom--navbar-nav--li-active--a);
+    transition: 0.3s;
+}
+
+#preloader {
+    background: var(--preloader);
+}
+
+.navbar-custom .nav li.active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .navbar-nav>li.active a {
+    color: var(--navbar-custom--nav--li-active--navbar-custom--nav--li--a-hover--navbar-custom--nav--li--a-focus--navbar-custom--navbar-nav--li-active--a);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav>li>a,
+.navbar-custom .navbar-nav .dropdown-menu>li>a {
+    color: var(--navbar-custom--navbar-brand--navbar-custom--navbar-nav--li--a--navbar-custom--navbar-nav--dropdown-menu--li--a);
+    transition: 0.3s;
+}
+
+figure.effect-bubba {
+    background: var(--figure-effect-bubba);
+    transition: 0.3s;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+    background-color: var(--scroll-up--a-hover--scroll-up--a-active1);
+    color: var(--scroll-up--a-hover--scroll-up--a-active2);
+    transition: 0.3s;
+}
+
+#footer span {
+    color: var(--footer-span);
+    transition: 0.3s;
+}
+
+body {
+    color: var(--body2);
+    transition: 0.3s;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background: var(--navbar-custom--navbar-toggle--icon-bar);
+    transition: 0.3s;
+}
+
+#home {
+    background: var(--home);
+    transition: 0.3s;
+}
