@@ -1,7 +1,7 @@
 .toggle_switch {
     display: block;
     bottom: -1.8em;
-    right: 7em;
+    right: -2em;
 }
 
 
@@ -16,7 +16,7 @@
     border-radius: 3em;
     display: block;
     bottom: 0em;
-    right: 4.2em;
+    right: -0.9em;
     position: absolute;
 }
 
